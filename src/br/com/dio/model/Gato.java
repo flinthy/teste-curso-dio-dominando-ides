@@ -46,7 +46,6 @@ public class Gato {
         Gato gato = (Gato) o;
         return Objects.equals(nome, gato.nome) && Objects.equals(cor, gato.cor) && Objects.equals(idade, gato.idade);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(nome, cor, idade);
